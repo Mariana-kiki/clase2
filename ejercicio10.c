@@ -1,29 +1,55 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int a, b, c;
     int mayor, medio, menor;
 
     printf("Introduce tres números separados por espacios: ");
-    scanf("%d %d %d", &a, &b, &c);  
+    scanf("%d %d %d", &a, &b, &c);
 
     if (a >= b && a >= c) 
     {
         mayor = a;
-        medio = (b >= c) ? b : c;
-        menor = (b < c) ? b : c;
-    } else 
+        if (b >= c) 
+        {
+            medio = b;
+            menor = c;
+        } 
+        else 
+        {
+            medio = c;
+            menor = b;
+        }
+    } 
+    else 
       if (b >= a && b >= c) 
-      {
+    {
         mayor = b;
-        medio = (a >= c) ? a : c;
-        menor = (a < c) ? a : c;
+        if (a >= c) 
+        {
+            medio = a;
+            menor = c;
+        } 
+        else 
+        {
+            medio = c;
+            menor = a;
+        }
     } 
       else 
       {
         mayor = c;
-        medio = (a >= b) ? a : b;
-        menor = (a < b) ? a : b;
+        if (a >= b) 
+        {
+            medio = a;
+            menor = b;
+        } 
+        else 
+        {
+            medio = b;
+            menor = a;
+        }
     }
 
     printf("Orden de mayor a menor: %d, %d, %d\n", mayor, medio, menor);
