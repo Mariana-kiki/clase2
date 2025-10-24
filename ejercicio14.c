@@ -1,3 +1,6 @@
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio14*/
+
 #include <stdio.h>
 
 void main() 
