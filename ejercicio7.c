@@ -1,6 +1,9 @@
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio7*/
+
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     int a, b, c;
 
