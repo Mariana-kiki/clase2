@@ -1,6 +1,9 @@
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio10*/
+
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     int a, b, c;
     int mayor, medio, menor;
