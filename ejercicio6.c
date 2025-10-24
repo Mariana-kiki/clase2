@@ -1,6 +1,9 @@
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio6*/
+
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     float x, resultado;
 
