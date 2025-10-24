@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <math.h>
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio3*/
 
 #include <stdio.h>
 #include <math.h>
