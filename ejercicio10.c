@@ -53,7 +53,7 @@ void main()
             medio = b;
             menor = a;
         }
-    }
+       }
 
     printf("Orden de mayor a menor: %d, %d, %d\n", mayor, medio, menor);
 }
