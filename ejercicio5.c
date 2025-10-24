@@ -1,6 +1,9 @@
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio5*/
+
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     const float Precio = 7.0; 
     int edad;
