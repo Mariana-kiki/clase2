@@ -1,6 +1,9 @@
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio8*/
+
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     int num, suma, pares = 0;
 
