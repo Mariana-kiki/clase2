@@ -1,6 +1,9 @@
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio11*/
+
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     char c;
 
