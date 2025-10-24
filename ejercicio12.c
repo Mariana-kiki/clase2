@@ -1,4 +1,5 @@
-
+/*Mariana Gutiérrez Acosta
+clase 2 ejercicio12*/
 
 #include <stdio.h>
 
