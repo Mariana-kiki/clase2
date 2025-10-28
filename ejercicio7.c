@@ -7,7 +7,7 @@ void main()
 {
     int a, b, c;
 
-    printf("Introduce tres números de una cifra: ");
+    printf("Introduce tres números enteros de una cifra: ");
     scanf("%d %d %d", &a, &b, &c);
 
     if ((a == 1 && b == 2 && c == 3) || (a == 1 && c == 2 && b == 3) ||
